@@ -114,12 +114,6 @@ Cubre casos normal, límite (fuera de presupuesto) y fallo (id inexistente,
 pedido vacío, presupuesto negativo). Matriz completa y pruebas del agente
 end-to-end en [docs/pruebas.md](docs/pruebas.md).
 
-## Seguridad y costos
-
-- Nunca subas `.env` ni credenciales (ya está en `.gitignore`).
-- El catálogo es información pública; el agente no guarda datos del cliente.
-- En producción: autenticación propia, identidad administrada, límites de tamaño
-  y rate limit, y borrar vector stores y agentes de prueba al terminar.
 
 ## Datos y atribución
 
